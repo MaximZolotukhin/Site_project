@@ -1,0 +1,34 @@
+/*Стиле общие для страницы*/
+* {
+  padding: 0; /*внутренний отсуп*/
+  margin: 0; /*внешний отсуп*/
+}
+
+/*Стиле общие для bodyp*/
+body {
+  color: #413d4b; /*изменение цвета шрифта*/
+  font-family: 'Roboto', sans-serif; /*семейство шрифта*/
+  font-weight: 300; /*начертание шрифта*/
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+header {
+  width: 1600px; /*ширина*/
+  height: 670px; /*высота*/
+  background-color: #42326b; /*заливка фона*/
+  background-image: url(../img/bg-header.jpg); /*фоновая картинка*/
+}
+
+.top-header,
+.header-text {
+  width: 950px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
