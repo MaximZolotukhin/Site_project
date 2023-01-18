@@ -123,7 +123,7 @@ header {
 
 .form {
   width: 460px;
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
 }
 
 .form h2 {
@@ -164,4 +164,30 @@ header {
   background: none;
   font-size: 16px;
   cursor: pointer;
+}
+
+footer {
+  background-color: #42326b;
+  background-image: url(../img/bg-footer.jpg);
+  background-size: cover;
+}
+
+.footer {
+  width: 950px;
+  margin: 0 auto;
+  padding: 70px 10px;
+  box-sizing: border-box; /* Объединение размеров */
+  overflow: hidden;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.copyright {
+  float: right;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
 }
